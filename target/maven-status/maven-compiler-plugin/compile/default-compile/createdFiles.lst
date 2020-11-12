@@ -1,0 +1,10 @@
+ie/ucd/hello/StackDescription.class
+ie/ucd/hello/StackController.class
+ie/ucd/hello/StackItem.class
+ie/ucd/hello/StackEmptyException.class
+ie/ucd/hello/StackSize.class
+ie/ucd/hello/LinkedStack.class
+ie/ucd/hello/HelloSpringApplication.class
+ie/ucd/hello/LinkedStack$Node.class
+ie/ucd/hello/LinkedStack$1.class
+ie/ucd/hello/NoSuchStackException.class
