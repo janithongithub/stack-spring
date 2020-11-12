@@ -1,0 +1,27 @@
+POST /stack
+{
+  "name" : "stack-name"
+}
+
+GET /stack
+{
+  "name" : "_____"
+}
+
+/stack/{name}
+GET /stack/{name} - top
+-403 Forbidden if stack is empty
+-200 OK { "element" : { JSON representation of the element }}
+
+POST
+/stack/{name}/  -push
+-204 created
+
+GET
+/stack/{name}/size
+{ "size" : ____}
+
+DELETE
+/stack/{name} -pop
+-403 Forbidden if stack s empty
+-200 OK { "element" : { JSON representation of the element }}
